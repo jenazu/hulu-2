@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import HeadetItems from "./header/HeadetItems";
+import HeadetItems from "./HeadetItems";
 import {
   BadgeCheckIcon,
   CollectionIcon,

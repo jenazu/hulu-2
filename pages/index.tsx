@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../components/Header'
+import Header from '../components/header/Header'
+import Nav from '../components/nav/Nav'
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,9 @@ const Home: NextPage = () => {
 
       {/* Header */}
       <Header/>
+
+      {/* Nav */}
+      <Nav/>
     </div>
   )
 }
